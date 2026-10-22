@@ -2305,7 +2305,7 @@
 				)
 			)
 		)
-		(property "Value" "ICM-42670-P"
+		(property "Value" "BMI323"
 			(at 4.7064 2.0923 90)
 			(layer "F.Fab")
 			(uuid "ca16545b-2e61-43c0-bf87-a7ff919371a1")
