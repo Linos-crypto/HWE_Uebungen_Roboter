@@ -1,0 +1,339 @@
+(footprint "OLED_SSD1306_I2C_0.96"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
+	(tags "Through hole socket strip THT 1x04 2.54mm single row")
+	(property "Reference" "REF**"
+		(at 3.81 -2.77 0)
+		(layer "F.SilkS")
+		(uuid "e6e3e4e6-8038-42f2-8f30-e397527abab5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OLED_SSD1306_I2C_0.96"
+		(at 3.175 3.175 0)
+		(layer "F.Fab")
+		(uuid "9e5db411-62be-4b19-97a0-9c0a8f34fb28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c2ad418-591f-4649-86c1-0e3820f8f3e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca9ea7dc-1532-492e-9936-6a124205e5ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.33 -1.33)
+		(end 0 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aee912f5-9d82-4e63-9a54-7db96d5976e3")
+	)
+	(fp_line
+		(start -1.33 0)
+		(end -1.33 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8fb308e-5009-432a-a186-437f2c729bc1")
+	)
+	(fp_line
+		(start 1.27 -1.33)
+		(end 8.95 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbdb9f2f-6ba6-4746-b3f7-e36354997c69")
+	)
+	(fp_line
+		(start 1.27 1.33)
+		(end 1.27 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ef500a8-4124-4808-a826-5a04360e4603")
+	)
+	(fp_line
+		(start 1.27 1.33)
+		(end 8.95 1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93b00e31-8f9b-49ae-81e4-04eb623a8434")
+	)
+	(fp_line
+		(start 8.95 1.33)
+		(end 8.95 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34197e30-4c4f-432f-a3fa-5600cc33cbbe")
+	)
+	(fp_line
+		(start -1.8 -1.75)
+		(end 9.4 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad0cf7ac-3656-45ed-8bd9-5e64ec4e9d18")
+	)
+	(fp_line
+		(start -1.8 1.8)
+		(end -1.8 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11925438-fc65-4082-a567-f1014c9c738a")
+	)
+	(fp_line
+		(start 9.4 -1.75)
+		(end 9.4 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1bff7c8-edb4-471c-8aa9-d5a0eccb958b")
+	)
+	(fp_line
+		(start 9.4 1.8)
+		(end -1.8 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c03b5c7-82f6-40be-b649-8a2091c7d734")
+	)
+	(fp_line
+		(start -9.84 -1.5)
+		(end -9.84 26.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65b73e89-97fd-45fb-90d7-e8b840565e8a")
+	)
+	(fp_line
+		(start -9.84 -1.5)
+		(end 17.46 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76a07384-dcae-4cc7-bd35-3c20428535ce")
+	)
+	(fp_line
+		(start -9.84 26.3)
+		(end 17.46 26.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0323c5de-52f5-4d75-ad3e-f78c94ffb781")
+	)
+	(fp_line
+		(start -1.27 -0.635)
+		(end -0.635 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c57bb195-673a-4826-9c01-230df2f970da")
+	)
+	(fp_line
+		(start -1.27 1.27)
+		(end -1.27 -0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d44e590-711a-4246-a0c9-e175cb2f5664")
+	)
+	(fp_line
+		(start -0.635 -1.27)
+		(end 8.89 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e86d8d7-2298-49d4-ae13-7a821bac6f8a")
+	)
+	(fp_line
+		(start 8.89 -1.27)
+		(end 8.89 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2e57892-37dc-49f4-af13-d19e64704622")
+	)
+	(fp_line
+		(start 8.89 1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fca1f2ba-4b10-4361-a3bb-27210f37302e")
+	)
+	(fp_line
+		(start 17.46 -1.5)
+		(end 17.46 26.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9211a5a-4396-41b7-9a0c-7aa4a8b7026f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 0 180)
+		(layer "F.Fab")
+		(uuid "223d5edb-6b80-4172-b091-07527268ae60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -7.84 0.5)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "1c185f35-cafd-476d-a232-067a7d910210")
+	)
+	(pad "" np_thru_hole circle
+		(at -7.84 24.3)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "aa541682-12f9-4ed2-8832-2857e43ad210")
+	)
+	(pad "" np_thru_hole circle
+		(at 15.46 0.5)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "67c35807-df29-4c49-adc4-d9c7b541d8e5")
+	)
+	(pad "" np_thru_hole circle
+		(at 15.46 24.3)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e2a2e977-e59b-4683-a730-16cf7be3eef3")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bfd41017-c845-4821-9961-4fe08b664df5")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06c66494-e619-4d05-8794-d32b3e817c09")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e14d575a-1a6e-40c7-a66d-33890346b00c")
+	)
+	(pad "4" thru_hole oval
+		(at 7.62 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e21ef50e-ef01-4fc1-aea5-37e05e3146b9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+	(model "${LIBRESOLAR_3DMODEL_DIR}/LibreSolar.3dshapes/OLED_SSD1306_64x128_0.96.step"
+		(offset
+			(xyz 3.81 1.5 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

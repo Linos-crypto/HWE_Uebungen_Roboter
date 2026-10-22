@@ -1,0 +1,41 @@
+# Abgabe-Archive fuer die Lehrperson (Ordner im Repository-Hauptverzeichnis)
+/Abgaben/
+
+# KiCad: lokale Benutzer- und Sitzungseinstellungen
+*.kicad_prl
+
+# KiCad: Sperrdateien und automatische Sicherungen
+*.lck
+~$*
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+*-backups/
+
+# Sicherungskopien und temporaere Editor-Dateien
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# KiCad: automatisch erzeugter Footprint-Cache
+fp-info-cache
+
+# Temporaere FreeRouting-Austauschdateien
+temp-freerouting.dsn
+temp-freerouting.ses
+
+# Betriebssystem-Metadaten
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Bewusst NICHT ausgeschlossen:
+# KiCad-Projektdateien (.kicad_pro, .kicad_sch, .kicad_pcb)
+# Eigene Bibliotheken (.kicad_sym, .kicad_mod, *.pretty)
+# fp-lib-table, sym-lib-table und eigene Designregeln (.kicad_dru)
+# Datenblaetter, 3D-Modelle, Bilder, SVGs, PDFs und HTML-BOM
+# Fertigungsunterlagen und dokumentierte Pruefberichte
