@@ -1,5 +1,6 @@
 # Abgabe-Archive fuer die Lehrperson (Ordner im Repository-Hauptverzeichnis)
-/Abgaben/
+# Abgabeordner auf jeder Verzeichnisebene ausschliessen
+Abgaben/
 
 # KiCad: lokale Benutzer- und Sitzungseinstellungen
 *.kicad_prl
